@@ -1,0 +1,134 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{iccv}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\iccvfinalcopy % *** Uncomment this line for the final submission
+
+\def\iccvPaperID{****} % *** Enter the ICCV Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+%\ificcvfinal\pagestyle{empty}\fi
+\setcounter{page}{1}
+\begin{document}
+
+%%%%%%%%% TITLE
+\title
+{
+    Classification of Histology and Pathology Images Using Convolutional Neural
+    Networks%
+}
+
+\author{%
+    Luong Nguyen\\
+    University of Pittsburgh\\
+    Biomedical Building Tower 3\\
+    Fifth Ave\\
+    Pittsburgh, PA 15026\\
+    % {\tt\small luongn@andrew.cmu.edu}
+    \and
+    Dan Spagnolo\\
+    University of Pittsburgh\\
+    Biomedical Building Tower 3\\
+    Fifth Ave\\
+    Pittsburgh, PA 15026\\
+    % {\tt\small luongn@andrew.cmu.edu}
+    \and
+    Jakob Bauer\\
+    Carnegie Mellon University\\
+    5000 Forbes Avenue\\
+    Pittsburgh, PA 15213\\
+    % {\tt\small jsbauer@andrew.cmu.edu}
+}
+
+\maketitle
+%\thispagestyle{empty}
+
+
+%%%%%%%%% ABSTRACT
+% \begin{abstract}
+%    The ABSTRACT is to be in fully-justified italicized text, at the top
+%    of the left-hand column, below the author and affiliation
+%    information. Use the word ``Abstract'' as the title, in 12-point
+%    Times, boldface type, centered relative to the column, initially
+%    capitalized. The abstract is to be in 10-point, single-spaced type.
+%    Leave two blank lines after the Abstract, then begin the main text.
+%    Look at previous ICCV abstracts to get a feel for style and length.
+% \end{abstract}
+
+%%%%%%%%% BODY TEXT
+
+\section{Introcuction}
+\label{sec:Introcuction}
+
+\section{Aims}
+\label{sec:Aims}
+
+\section{Dataset}
+\label{sec:Dataset}
+
+\section{Methods}
+\label{sec:Methods}
+
+\section{Expected Complications}
+\label{sec:Expected Complications}
+
+% \begin{figure}[h]
+% \begin{center}
+% \fbox{\rule{0pt}{2in} \rule{0.9\linewidth}{0pt}}
+%    %\includegraphics[width=0.8\linewidth]{egfigure.eps}
+% \end{center}
+%    \caption{Example of caption.  It is set in Roman so that mathematics
+%    (always set in Roman: $B \sin A = A \sin B$) may be included without an
+%    ugly clash.}
+% \label{fig:long}
+% \label{fig:onecol}
+% \end{figure}
+
+\begin{figure*}
+\begin{center}
+\fbox{\rule{0pt}{2in} \rule{.9\linewidth}{0pt}}
+\end{center}
+   \caption{Example of a short caption, which should be centered.}
+\label{fig:short}
+\end{figure*}
+
+% For this citation style, keep multiple citations in numerical (not
+% chronological) order, so prefer \cite{Alpher03,Alpher02,Authors14} to
+% \cite{Alpher02,Alpher03,Authors14}.
+%
+% When placing figures in \LaTeX, it's almost always best to use
+% \verb+\includegraphics+, and to specify the  figure width as a multiple of
+% the line width as in the example below
+% {\small\begin{verbatim}
+%    \usepackage[dvips]{graphicx} ...
+%    \includegraphics[width=0.8\linewidth]
+%                    {myfile.eps}
+% \end{verbatim}
+% }
+
+%------------------------------------------------------------------------
+
+\section{References}
+\label{sec:References}
+
+%-------------------------------------------------------------------------
+
+{\small
+\bibliographystyle{ieee}
+\bibliography{egbib}
+}
+
+\end{document}
