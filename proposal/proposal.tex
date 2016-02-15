@@ -77,7 +77,8 @@ Deep learning has accomplished multiple successes with natural images,
 including segmenting, tagging, and scene understanding. However, only
 recently has deep learning ventured into the realm of medical images with
 multiple papers appeared in the top-tiered conference in medical imaging
-[1] [2]. The slower adaptation of deep learning in medical image analysis
+\cite{cruz2013deep,roth2015deeporgan}.
+The slower adaptation of deep learning in medical image analysis
 could be explained by several limitations of this field, including expensive
 image capture, cost prohibitive annotations, and the lack of publicly
 available datasets with annotations. It takes eight years to train a
@@ -120,10 +121,13 @@ organ, we will download 2 WSIs from the publicly available Cancer Genome Atlas
 We will try multiple methods for data augmentations to increase the number of
 patches per WSI up to 10000 patches. These methods may include rotating and
 flipping patches, scale jittering, modifying color and brightness, as well as
-adding noise to patches [3]. In addition to ground truth, we will collect
+adding noise to patches
+\cite{eigen2015predicting}.
+In addition to ground truth, we will collect
 non-expert naive observer (Jakob)’s and intermediate observer (Daniel)’s
 annotations for comparison with human classification. For baseline comparison
-with shallow learning methods, we can train an SVM with SIFT/HOG features [4].
+with shallow learning methods, we can train an SVM with SIFT/HOG features
+\cite{chang2013classification}.
 We will experiment with standard CNN architectures such as AlexNet, VGGNet,
 and LeNet. We suspect that our problem will not require as many CNN layers
 as 1000-class datasets, for example, and thus we will experiment with CNN
@@ -220,10 +224,10 @@ insufficient data.
 
 %------------------------------------------------------------------------
 
-\section{References}
-\label{sec:References}
-
-%-------------------------------------------------------------------------
+% \section{References}
+% \label{sec:References}
+%
+% %-------------------------------------------------------------------------
 
 {\small
 \bibliographystyle{ieee}

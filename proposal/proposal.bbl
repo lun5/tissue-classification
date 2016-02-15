@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}\itemsep=-1pt
+
+\bibitem{chang2013classification}
+H.~Chang, A.~Borowsky, P.~Spellman, and B.~Parvin.
+\newblock Classification of tumor histology via morphometric context.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 2203--2210, 2013.
+
+\bibitem{cruz2013deep}
+A.~A. Cruz-Roa, J.~E.~A. Ovalle, A.~Madabhushi, and F.~A.~G. Osorio.
+\newblock A deep learning architecture for image representation, visual
+  interpretability and automated basal-cell carcinoma cancer detection.
+\newblock In {\em Medical Image Computing and Computer-Assisted
+  Intervention--MICCAI 2013}, pages 403--410. Springer, 2013.
+
+\bibitem{eigen2015predicting}
+D.~Eigen and R.~Fergus.
+\newblock Predicting depth, surface normals and semantic labels with a common
+  multi-scale convolutional architecture.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 2650--2658, 2015.
+
+\bibitem{roth2015deeporgan}
+H.~R. Roth, L.~Lu, A.~Farag, H.-C. Shin, J.~Liu, E.~B. Turkbey, and R.~M.
+  Summers.
+\newblock Deeporgan: Multi-level deep convolutional networks for automated
+  pancreas segmentation.
+\newblock In {\em Medical Image Computing and Computer-Assisted
+  Intervention--MICCAI 2015}, pages 556--564. Springer, 2015.
+
+\end{thebibliography}
